@@ -465,3 +465,10 @@ a:focus-visible {
  .feedback-quote { padding: 20px; }
  .evaluation-table { font-size: 14px; }
 }
+
+@media (min-width: 1000px) {
+  .feedback-quotes-three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (min-width: 761px) and (max-width: 999px) {
+  .feedback-quotes-three { grid-template-columns: 1fr; }
+}
